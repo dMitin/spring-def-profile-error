@@ -5,7 +5,7 @@ Config1 (which is annotated with @Profile("config1")). Every configuration conta
 see strange situation, that Spring chooses appropriate configuration depending on configuration class name!   
 
 When you run this application, with setting active profile = "config1", Spring chooses ConfigDefault, even if we
-set active profile!!!! Let's see another trick, let's rename ConfigDef ault class name to-> "A". What is result? 
+set active profile!!!! Let's see another trick, let's rename ConfigDefault class name to-> "A". What is result? 
 Now we see that Config1 is choosen.
 
 It's a very strange behaviour. I spent a lot of time, trying to understand, why in test environment my application
